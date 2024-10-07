@@ -1,0 +1,145 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #4B0082;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    background-color: #6a0dad;
+    transition: background-color 0.3s;
+}
+
+.section {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: white;
+}
+
+.section:nth-child(even) {
+    background-color: #ececec;
+}
+
+h1, h2 {
+ color: #4B0082;
+}
+
+p {
+    font-size: 18px;
+    color: #444;
+}
+
+/* Banner Image */
+.banner-img {
+    width: 100%; /* Full width */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 800px; /* Maximum width */
+    margin: 20px 0;
+}
+
+/* Council Section */
+.council-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+}
+
+.council-member {
+    border: 2px solid #4B0082;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.council-member img {
+    width: 100%; /* Full width of the container */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 150px; /* Maximum width */
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* Gallery Section */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.gallery-grid img {
+    width: 100%; /* Full width of the container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px;
+}
+
+/* News Section */
+.news-section {
+    background-color: #ececec;
+    padding: 40px 20px;
+}
+
+.news-item {
+    margin-bottom: 20px;
+    border: 1px solid #4B0082;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Contact Section */
+#contact p {
+    font-size: 20px;
+    color: #4B0082;
+}
+
+footer {
+    background-color:lightblue;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .council-grid, .gallery-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .navbar a {
+        display: block;
+        padding: 10px;
+        font-size: 16px;
+    }
+}
+/* Gallery Page Styling */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 50px;
+}
+
+.Gallery Image  {
+    width: 100px;
+    height: 200px;
+    border-radius: 10px;
+}
+.Gallery Image {
+    height: 20px;
+    width: 20px;
+}
